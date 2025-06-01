@@ -1,0 +1,49 @@
+.title h2{
+    font-family: 'Chinese-Rocks';
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.about {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 80%;
+    font-family: 'Chinese-Rocks';
+    margin: auto;
+    background-image: url(../images/old-paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    color: #381a0a;
+}
+
+.about ul {
+    padding: 0 7rem;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.about hr {
+    border: 1px solid #381a0a;
+    margin-bottom: 1rem;
+}
+
+.chapter h3 {
+    font-family: 'Chinese-Rocks';
+    margin-bottom: 1rem;
+}
+
+.summary {
+    font-family: 'Chinese-Rocks';
+    text-align: justify;
+    font-weight: 300;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/mainPage-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

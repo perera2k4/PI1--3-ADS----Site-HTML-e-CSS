@@ -1,0 +1,38 @@
+.mission {
+    font-family: 'Chinese-Rocks';
+    margin: 1rem 1rem 0 0;
+    background-image: url(../images/old-paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    border-radius: 1rem;
+    color: #381a0a;
+    width: 45%;
+}
+
+.mission h3 {
+    padding: 1rem 0 0 5rem;
+    margin: 1rem;
+}
+
+.mission h4 {
+    padding: 1rem 0 0 1rem;
+    margin: 1rem;
+}
+
+.mission ol{
+    list-style-type: upper-roman;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 0 4rem;
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../images/wallpaper-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

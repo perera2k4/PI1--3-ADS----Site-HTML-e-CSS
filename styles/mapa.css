@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+#map-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    cursor: grab;
+    background: #000;
+}
+
+#map {
+    background-image: url('../images/mapa.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 8192px;
+    height: 5663px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}

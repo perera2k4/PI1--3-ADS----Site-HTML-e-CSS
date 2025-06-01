@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Chinese-Rocks';
+    src: url('../fonts/Chinese-Rocks.otf') format('truetype');
+    font-weight: 3000;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    font-family: 'Chinese-Rocks';
+    background-color: #0f0f0f;
+    padding: 1rem 4rem 1rem 2rem;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+ul img {
+    width: 15dvh;
+}
+
+nav li{
+    display: flex;
+    width: auto;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: aliceblue;
+}
+
+.content {
+    background-color: aliceblue;
+    padding: 1rem;
+}
