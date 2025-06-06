@@ -1,88 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #383838;
 }
 
+.content {
+    overflow:hidden;
+    font-family: 'Chinese-Rocks';
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-color: #383838;
+}
 
+.content img {
+    position: absolute;
+    width: 7%;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
 
-form {
+.content h3 {
+    position: absolute;
+    margin: 3rem 0 0 12rem;
+}
+
+.content h4 {
+    position: absolute;
+    margin: 5rem 0 0 12rem;
+}
+
+.content h5 {
+    position: absolute;
+    margin: 7rem 0 0 12rem;
+}
+
+.profile {
+    border-radius: 1rem;
+    background-image: url('../images/mainPage-background.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 7rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.7);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
-form input, form textarea {
+.form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form label {
+    font-weight: bold;
+}
+
+.form input, .form textarea {
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form button {
-    background: #35424a;
-    color: #ffffff;
+    padding: 0.5rem;
     border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-form button:hover {
-    background: #2c3e50;
-}
-
-body {
+    border-radius: 0.5rem;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
 }
 
-
-form {
-    max-width: 600px;
-    margin: 20px auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form h2 {
-    margin-bottom: 20px;
-}
-
-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-form input[type="text"],
-form input[type="email"],
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form input[type="submit"] {
-    background: #333;
-    color: #fff;
+.form button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 0.75rem;
     border: none;
-    padding: 10px 15px;
+    border-radius: 0.5rem;
     cursor: pointer;
-    border-radius: 4px;
-}
-
-form input[type="submit"]:hover {
-    background: #555;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }

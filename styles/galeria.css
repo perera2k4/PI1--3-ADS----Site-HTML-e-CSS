@@ -1,0 +1,40 @@
+.content {
+    background-color: #383838;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.main-video {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.short-video {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    
+}
+
+.video {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.photos img {
+    width: 100%;
+}
+
+.photos img:hover, .video:hover {
+    transform: scale(1.05);
+}
